@@ -20,5 +20,5 @@ jobs:
           make install
       - name: Run linter
         run: |
-          make check
+          make lint
     
