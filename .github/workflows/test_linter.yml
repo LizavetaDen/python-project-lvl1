@@ -3,24 +3,27 @@ name: make lint
 
 on:
   - push
+  - pull_request
+  
 jobs:
   build:
-    runs-on: ubuntu-latest
-    strategy:
+   runs-on: ubuntu-latest
+   strategy:
       matrix:
-        python-version: ["3.8"]
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v3
-        with:
-          python-version: ${{ matrix.python-version }}
+        python-version: [3.8]
+        
+        steps:
+           - uses: actions/checkout@v2
+           - name: Set up Python ${{ matrix.python-version }}
+             uses: actions/setup-python@v2
+             with:
+               python-version: ${{ matrix.python-version }}
         # make depends on poetry
-      - name: Install dependencies
-        run: |
-          pip install poetry
-          make install
-      - name: Run linter
-        run: |
-          make lint
+           - name: Install dependencies
+             run: |
+                  pip install poetry
+                  make install
+           - name: Run linter
+             run: |
+                  make lint
     
