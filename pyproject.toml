@@ -2,8 +2,10 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = ""
-authors = ["Liza Denisova"]
-packages = [{ include = "brain_games" },]
+authors = ["Liza Denisova <gollza@yandex.ru>"]
+packages = [
+  { include = "brain_games" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
