@@ -15,12 +15,13 @@ def play(game):
         print(f'Question: {request}')
         user_answer = prompt.string('Your answer: ')
         if user_answer.lower() != correct_answer:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(."
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
-    else:
-        print('Correct!')   
-    i += 1
-    if i == COUNTS:
-        print(f'Congratulations, {name}!')
-        break
+        else:
+            print('Correct!')
+        i += 1
+        if i == COUNTS:
+            print(f'Congratulations, {name}!')
+            break
