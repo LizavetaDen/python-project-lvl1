@@ -20,3 +20,11 @@ Here displayed both positive and negative outcomes of the game:
 
 
 ### 2. "Brain-Calc"
+Count and write down result of the expression
+
+Here displayed both positive and negative outcomes of the game:
+
+[![asciicast](https://asciinema.org/a/AqxZhZmPyEhkxx0TfEPfkAFeG.svg)](https://asciinema.org/a/AqxZhZmPyEhkxx0TfEPfkAFeG)
+
+
+### 3. "Brain-GCD"
