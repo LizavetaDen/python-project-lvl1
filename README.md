@@ -28,3 +28,14 @@ Here displayed both positive and negative outcomes of the game:
 
 
 ### 3. "Brain-GCD"
+Find the greatest common divisor of given numbers
+
+Here displayed both positive and negative outcomes of the game:
+
+[![asciicast](https://asciinema.org/a/on6yrIHDGmLuxk9owXtEILdKE.svg)](https://asciinema.org/a/on6yrIHDGmLuxk9owXtEILdKE)
+
+
+### 4. "Brain-progression"
+What number is missing in the progression?
+
+Here displayed both positive and negative outcomes of the game:
