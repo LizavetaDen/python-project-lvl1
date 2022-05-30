@@ -35,7 +35,7 @@ Here displayed both positive and negative outcomes of the game:
 [![asciicast](https://asciinema.org/a/on6yrIHDGmLuxk9owXtEILdKE.svg)](https://asciinema.org/a/on6yrIHDGmLuxk9owXtEILdKE)
 
 
-### 3. "Brain-progression"
+### 4. "Brain-progression"
 What number is missing in the progression?
 
 Here displayed both positive and negative outcomes of the game:
