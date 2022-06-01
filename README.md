@@ -39,3 +39,5 @@ Here displayed both positive and negative outcomes of the game:
 What number is missing in the progression?
 
 Here displayed both positive and negative outcomes of the game:
+
+[![asciicast](https://asciinema.org/a/8Fc9j726tZSYAEhhTnDvvFZqK.svg)](https://asciinema.org/a/8Fc9j726tZSYAEhhTnDvvFZqK)
