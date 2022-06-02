@@ -41,3 +41,11 @@ What number is missing in the progression?
 Here displayed both positive and negative outcomes of the game:
 
 [![asciicast](https://asciinema.org/a/8Fc9j726tZSYAEhhTnDvvFZqK.svg)](https://asciinema.org/a/8Fc9j726tZSYAEhhTnDvvFZqK)
+
+
+### 5. "Brain-prime"
+If number prime or not (?)
+
+Here displayed both positive and negative outcomes of the game:
+
+[![asciicast](https://asciinema.org/a/1Wvdj51wapFM1DQMRmXeihzpq.svg)](https://asciinema.org/a/1Wvdj51wapFM1DQMRmXeihzpq)
