@@ -1,13 +1,13 @@
-## Brain Games
-
 **_Hexlet tests and linter status:_** 
-
 
 [![Actions Status](https://github.com/LizavetaDen/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/LizavetaDen/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/LizavetaDen/python-project-lvl1/maintainability)
 ![Github Actions](https://github.com/LizavetaDen/python-project-lvl1/actions/workflows/linter.yml/badge.svg)
 
+## Brain Games
 This is the 1st training project on "Python Developer" course 
+
+Here below 5 simple Math Quizzes:
 
 
 ## Installation
@@ -17,10 +17,6 @@ This is the 1st training project on "Python Developer" course
 
 **make package-install** - install built wheel as executable package
 
-
-
-
-Here below 5 simple Math Quizzes:
 
 
 ## 1. "Brain-even" 
