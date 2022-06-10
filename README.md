@@ -12,8 +12,11 @@ This is the 1st training project on "Python Developer" course
 
 ### Installation
 **make install** - install dependencies
+
 **make build** - build wheel
+
 **make package-install** - install built wheel as executable package
+
 
 
 Here below 5 simple Math Quizzes:
