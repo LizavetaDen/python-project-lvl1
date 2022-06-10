@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain Games: Even, Calculator, GCD, Progression, Prime"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 authors = ["Liza Denisova <gollza@yandex.ru>"]
+repository = "https://github.com/LizavetaDen/python-project-lvl1"
 packages = [
   { include = "brain_games" },
 ]

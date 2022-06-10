@@ -1,22 +1,21 @@
 """Basic functions for Calc-game"""
 
 import random
+RULE_OF_GAME = 'What is the result of the expression?'
+LEFT_BORDER_NUMBER = 15
+RIGHT_BORDER_NUMBER = 15
 
 
-def introduction():
-    return 'What is the result of the expression?'
-
-
-def generate_request():
-    num1 = random.randint(1, 15)
-    num2 = random.randint(1, 5)
-    sign = ["+", "-", "*"]
-    operation = random.choice(sign)
+def get_question_correctansw():
+    num1 = random.randint(LEFT_BORDER_NUMBER, RIGHT_BORDER_NUMBER)
+    num2 = random.randint(LEFT_BORDER_NUMBER, RIGHT_BORDER_NUMBER)
+    operators = ["+", "-", "*"]
+    operation = random.choice(operators)
     if operation == "+":
         correct_answer = num1 + num2
     elif operation == "-":
         correct_answer = num1 - num2
     elif operation == "*":
         correct_answer = num1 * num2
-    request = f'{num1} {operation} {num2}'
-    return (request, str(correct_answer))
+    question = f'{num1} {operation} {num2}'
+    return question, str(correct_answer)

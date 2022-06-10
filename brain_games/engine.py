@@ -1,18 +1,18 @@
 """The overall logic of the game"""
 
 import prompt
-COUNTS = 3
+ROUNDS_COUNT = 3
 
 
 def play(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f'Hello, {name}!')
-    print(game.introduction())
+    print(game.RULE_OF_GAME)
     i = 0
-    while i <= COUNTS:
-        request, correct_answer = game.generate_request()
-        print(f'Question: {request}')
+    while i <= ROUNDS_COUNT:
+        question, correct_answer = game.get_question_correctansw()
+        print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer.lower() != correct_answer:
             print(f"'{user_answer}' is wrong answer ;(."
@@ -22,6 +22,6 @@ def play(game):
         else:
             print('Correct!')
         i += 1
-        if i == COUNTS:
+        if i == ROUNDS_COUNT:
             print(f'Congratulations, {name}!')
             break

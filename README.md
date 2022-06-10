@@ -1,6 +1,6 @@
-### Brain Games
+## Brain Games
 
-Hexlet tests and linter status: 
+**_Hexlet tests and linter status:_** 
 
 
 [![Actions Status](https://github.com/LizavetaDen/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/LizavetaDen/python-project-lvl1/actions)
@@ -9,12 +9,19 @@ Hexlet tests and linter status:
 
 This is the 1st training project on "Python Developer" course 
 
+
+### Installation
+**make install** - install dependencies
+**make build** - build wheel
+**make package-install** - install built wheel as executable package
+
+
 Here below 5 simple Math Quizzes:
 
 ### 1. "Brain-even" 
 If number even or odd (?) 
 
-Here displayed both positive and negative outcomes of the game:
+_Here displayed both positive and negative outcomes of the game:_
 
 [![asciicast](https://asciinema.org/a/wjJadEprQGkSkiBFkwF4xEn6h.svg)](https://asciinema.org/a/wjJadEprQGkSkiBFkwF4xEn6h)
 
@@ -22,7 +29,7 @@ Here displayed both positive and negative outcomes of the game:
 ### 2. "Brain-Calc"
 Count and write down result of the expression
 
-Here displayed both positive and negative outcomes of the game:
+_Here displayed both positive and negative outcomes of the game:_
 
 [![asciicast](https://asciinema.org/a/AqxZhZmPyEhkxx0TfEPfkAFeG.svg)](https://asciinema.org/a/AqxZhZmPyEhkxx0TfEPfkAFeG)
 
@@ -30,7 +37,7 @@ Here displayed both positive and negative outcomes of the game:
 ### 3. "Brain-GCD"
 Find the greatest common divisor of given numbers
 
-Here displayed both positive and negative outcomes of the game:
+_Here displayed both positive and negative outcomes of the game:_
 
 [![asciicast](https://asciinema.org/a/on6yrIHDGmLuxk9owXtEILdKE.svg)](https://asciinema.org/a/on6yrIHDGmLuxk9owXtEILdKE)
 
@@ -38,7 +45,7 @@ Here displayed both positive and negative outcomes of the game:
 ### 4. "Brain-progression"
 What number is missing in the progression?
 
-Here displayed both positive and negative outcomes of the game:
+_Here displayed both positive and negative outcomes of the game:_
 
 [![asciicast](https://asciinema.org/a/8Fc9j726tZSYAEhhTnDvvFZqK.svg)](https://asciinema.org/a/8Fc9j726tZSYAEhhTnDvvFZqK)
 
@@ -46,6 +53,6 @@ Here displayed both positive and negative outcomes of the game:
 ### 5. "Brain-prime"
 If number prime or not (?)
 
-Here displayed both positive and negative outcomes of the game:
+_Here displayed both positive and negative outcomes of the game:_
 
 [![asciicast](https://asciinema.org/a/1Wvdj51wapFM1DQMRmXeihzpq.svg)](https://asciinema.org/a/1Wvdj51wapFM1DQMRmXeihzpq)
