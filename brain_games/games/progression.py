@@ -1,21 +1,26 @@
 """Basic functions for Progression-game"""
 
 import random
+RULE_OF_GAME = 'What number is missing in the progression?'
+MAX_NUMBER = 20
+MIN_DIF = 1
+MAX_DIF = 10
+MIN_LENGTH = 5
+MAX_LENGTH = 10
 
 
-def introduction():
-    return 'What number is missing in the progression?'
+def generate_progression():
+    initial_term = random.randint(0, MAX_NUMBER)
+    common_difference = random.randint(MIN_DIF, MAX_DIF)
+    lenght = random.randint(MIN_LENGTH, MAX_LENGTH)
+    return [str(initial_term + common_difference * (i - 1))
+            for i in range(lenght)]
 
 
-def generate_request():
-    starting_number = random.randrange(20)
-    difference = random.randint(1, 10)
-    length = random.randint(5, 10)
-    missing_number = random.randint(0, length - 1)
-    progression = [
-        str(starting_number + difference * (i - 1))
-        for i in range(length)]
-    correct_answer = progression[missing_number]
-    progression[missing_number] = '..'
-    request = ' '.join(progression)
-    return request, str(correct_answer)
+def get_question_correctansw():
+    progression = generate_progression()
+    missing_num = random.randint(0, len(progression) - 1)
+    correct_answer = progression[missing_num]
+    progression[missing_num] = '..'
+    question = ' '.join(progression)
+    return question, correct_answer

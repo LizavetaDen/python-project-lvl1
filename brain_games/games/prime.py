@@ -4,7 +4,7 @@ import random
 RULE_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime():
+def is_prime(question):
     if question < 1:
         return False
     for i in range(2, question):
