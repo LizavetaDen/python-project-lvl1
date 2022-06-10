@@ -11,6 +11,8 @@ Here below 5 simple Math Quizzes that allows you to train your brain. Test your 
 
 
 ## Installation
+pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ hexlet-code
+
 **make install** - install dependencies
 
 **make build** - build wheel
