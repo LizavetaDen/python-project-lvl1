@@ -7,7 +7,7 @@
 ## Brain Games
 This is the 1st training project on "Python Developer" course 
 
-Here below 5 simple Math Quizzes that allows you to train your brain based on mathematical expressions
+Here below 5 simple Math Quizzes that allows you to train your brain. Test your knowledge!
 
 
 ## Installation
