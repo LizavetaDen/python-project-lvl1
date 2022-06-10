@@ -10,7 +10,7 @@
 This is the 1st training project on "Python Developer" course 
 
 
-### Installation
+## Installation
 **make install** - install dependencies
 
 **make build** - build wheel
@@ -19,9 +19,11 @@ This is the 1st training project on "Python Developer" course
 
 
 
+
 Here below 5 simple Math Quizzes:
 
-### 1. "Brain-even" 
+
+## 1. "Brain-even" 
 If number even or odd (?) 
 
 _Here displayed both positive and negative outcomes of the game:_
@@ -29,7 +31,7 @@ _Here displayed both positive and negative outcomes of the game:_
 [![asciicast](https://asciinema.org/a/wjJadEprQGkSkiBFkwF4xEn6h.svg)](https://asciinema.org/a/wjJadEprQGkSkiBFkwF4xEn6h)
 
 
-### 2. "Brain-Calc"
+## 2. "Brain-Calc"
 Count and write down result of the expression
 
 _Here displayed both positive and negative outcomes of the game:_
@@ -37,7 +39,7 @@ _Here displayed both positive and negative outcomes of the game:_
 [![asciicast](https://asciinema.org/a/AqxZhZmPyEhkxx0TfEPfkAFeG.svg)](https://asciinema.org/a/AqxZhZmPyEhkxx0TfEPfkAFeG)
 
 
-### 3. "Brain-GCD"
+## 3. "Brain-GCD"
 Find the greatest common divisor of given numbers
 
 _Here displayed both positive and negative outcomes of the game:_
@@ -45,7 +47,7 @@ _Here displayed both positive and negative outcomes of the game:_
 [![asciicast](https://asciinema.org/a/on6yrIHDGmLuxk9owXtEILdKE.svg)](https://asciinema.org/a/on6yrIHDGmLuxk9owXtEILdKE)
 
 
-### 4. "Brain-progression"
+## 4. "Brain-progression"
 What number is missing in the progression?
 
 _Here displayed both positive and negative outcomes of the game:_
@@ -53,7 +55,7 @@ _Here displayed both positive and negative outcomes of the game:_
 [![asciicast](https://asciinema.org/a/8Fc9j726tZSYAEhhTnDvvFZqK.svg)](https://asciinema.org/a/8Fc9j726tZSYAEhhTnDvvFZqK)
 
 
-### 5. "Brain-prime"
+## 5. "Brain-prime"
 If number prime or not (?)
 
 _Here displayed both positive and negative outcomes of the game:_
