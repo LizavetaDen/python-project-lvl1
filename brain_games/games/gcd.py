@@ -17,4 +17,4 @@ def get_question_correctansw():
     num2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     question = f"{num1} {num2}"
     correct_answer = gcd(num1, num2)
-    return question, correct_answer
+    return question, str(correct_answer)
