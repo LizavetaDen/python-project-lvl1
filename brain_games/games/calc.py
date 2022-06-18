@@ -9,8 +9,8 @@ MAX_NUMBER = 15
 def get_question_answer():
     num1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     num2 = random.randint(MIN_NUMBER, MAX_NUMBER)
-    operators = ["+", "-", "*"]
-    operation = random.choice(operators)
+    operators_list = ["+", "-", "*"]
+    operation = random.choice(operators_list)
     if operation == "+":
         correct_answer = num1 + num2
     elif operation == "-":

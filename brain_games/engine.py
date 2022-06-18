@@ -11,7 +11,7 @@ def play(game):
     print(game.RULE_OF_GAME)
     i = 0
     while i <= ROUNDS_COUNT:
-        question, correct_answer = game.get_question_correctansw()
+        question, correct_answer = game.get_question_answer()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer.lower() != correct_answer:
