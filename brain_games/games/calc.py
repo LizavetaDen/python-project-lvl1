@@ -6,7 +6,7 @@ MIN_NUMBER = 1
 MAX_NUMBER = 15
 
 
-def get_question_correctansw():
+def get_question_answer():
     num1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     num2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     operators = ["+", "-", "*"]

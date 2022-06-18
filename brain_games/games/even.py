@@ -7,10 +7,12 @@ MAX_NUMBER = 1000
 
 
 def is_even(question):
-    return 'yes' if question % 2 == 0 else 'no'
+    if question % 2 != 0:
+        return False
+    return True
 
 
-def get_question_correctansw():
+def get_question_answer():
     question = random.randint(MIN_NUMBER, MAX_NUMBER)
-    correct_answer = is_even(question)
+    correct_answer = 'yes' if is_even(question) else 'no'
     return question, correct_answer

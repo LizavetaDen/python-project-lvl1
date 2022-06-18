@@ -13,7 +13,7 @@ def is_prime(question):
     return True
 
 
-def get_question_correctansw():
+def get_question_answer():
     question = random.randrange(1000)
     correct_answer = 'yes' if is_prime(question) else 'no'
     return question, correct_answer

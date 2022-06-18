@@ -12,7 +12,7 @@ def gcd(num1, num2):
     return num1
 
 
-def get_question_correctansw():
+def get_question_answer():
     num1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     num2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     question = (num1, num2)

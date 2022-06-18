@@ -9,18 +9,29 @@ MIN_LENGTH = 5
 MAX_LENGTH = 10
 
 
-def generate_progression():
+def get_progression(initial_term, common_difference, length):
+    count = 1
+    i = initial_term
+    progression = [initial_term, ]
+    while count <= length:
+        i += common_difference
+        progression.append(i)
+        count += 1
+    return progression
+
+
+def get_question_gap(progression, missing_num):
+    progression[missing_num] = '..'
+    question = ' '.join(map(str, progression))
+    return question
+
+
+def get_question_answer():
     initial_term = random.randint(0, MAX_NUMBER)
     common_difference = random.randint(MIN_DIF, MAX_DIF)
-    lenght = random.randint(MIN_LENGTH, MAX_LENGTH)
-    return [str(initial_term + common_difference * (i - 1))
-            for i in range(lenght)]
-
-
-def get_question_correctansw():
-    progression = generate_progression()
+    length = random.randint(MIN_LENGTH, MAX_LENGTH)
+    progression = get_progression(initial_term, common_difference, length)
     missing_num = random.randint(0, len(progression) - 1)
-    correct_answer = progression[missing_num]
-    progression[missing_num] = '..'
-    question = ' '.join(progression)
+    correct_answer = str(progression[missing_num])
+    question = get_question_gap(progression, missing_num)
     return question, correct_answer
