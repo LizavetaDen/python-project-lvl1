@@ -1,15 +1,13 @@
 """Basic functions for Even-game"""
 
 import random
-RULE_OF_GAME = 'Answer "yes" if the number is even, otherwise "no".'
+RULES = 'Answer "yes" if the number is even, otherwise "no".'
 MIN_NUMBER = 1
 MAX_NUMBER = 1000
 
 
 def is_even(question):
-    if question % 2 != 0:
-        return False
-    return True
+    return question % 2 == 0
 
 
 def get_question_answer():

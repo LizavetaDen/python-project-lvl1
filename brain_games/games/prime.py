@@ -1,7 +1,7 @@
 """Basic functions for Prime-game"""
 
 import random
-RULE_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(question):
